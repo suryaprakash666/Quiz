@@ -67,6 +67,25 @@ if answer == 'uniterputted power supply':
 else:
     print('Incorrect')
 
+# Question (8)
+print("What is the Fullform of wan ")
+answer = input().lower()
+if answer == 'wide area network':
+    print("Correct")
+    Score = Score + 3
+else:
+    print('Incorrect')
+
+# Question (9)
+print("What is the Fullform of lan ")
+answer = input().lower()
+if answer == 'local area network':
+    print("Correct")
+    Score = Score + 1
+else:
+    print('Incorrect')
+
+
 
 
 print('Your Score is ' + str(Score))
