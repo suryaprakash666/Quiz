@@ -58,6 +58,17 @@ if answer == 'central processing unit':
 else:
     print('Incorrect')
 
+# Question (7)
+print("What is the Fullform of ups ")
+answer = input().lower()
+if answer == 'uniterputted power supply':
+    print("Correct")
+    Score = Score + 1
+else:
+    print('Incorrect')
+
+
+
 print('Your Score is ' + str(Score))
 print('pass' if Score > 3 else 'fail')
 if Score >= 5:
